@@ -20,7 +20,7 @@ This is due to the fact that most of the internal Android API called within this
 ## License
 This project is open source and free, it is available under the [Apache v2 License](http://www.apache.org/licenses/LICENSE-2.0.html).
 
-#comment
+## comment
 From Lollipop till Nougat (21 <= API <= 25)
 The hotspot is managed using Reflection APIs as the corresponding methods are hidden and not generally available for 3rd Party applications.
 
