@@ -19,3 +19,14 @@ This is due to the fact that most of the internal Android API called within this
 
 ## License
 This project is open source and free, it is available under the [Apache v2 License](http://www.apache.org/licenses/LICENSE-2.0.html).
+
+#comment
+From Lollipop till Nougat (21 <= API <= 25)
+The hotspot is managed using Reflection APIs as the corresponding methods are hidden and not generally available for 3rd Party applications.
+
+Above Oreo
+Android has come up with a new API called LocalOnlyHotspot
+
+https://developer.android.com/reference/android/net/wifi/WifiManager.LocalOnlyHotspotCallback
+https://developer.android.com/reference/android/net/wifi/WifiManager.LocalOnlyHotspotReservation
+These APIs let us to manage the hotspot if the hotspot is enabled by this app.
